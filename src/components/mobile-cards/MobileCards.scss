@@ -1,0 +1,62 @@
+.cards-section-tabs {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+  column-gap: 20px;
+  font-size: 13px;
+  align-items: center;
+  color: slategray;
+
+  & span {
+    padding: 5px;
+  }
+
+  & .active {
+    color: #fff;
+    border-bottom: 2px solid #23cefd;
+  }
+}
+
+.cards-carousel {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  --current-slide: 0;
+  padding: 40px;
+
+  &__item {
+    position: relative;
+    display: flex;
+    transition: transform 0.5s;
+    margin-right: 30px;
+
+    & .card {
+      flex: 0 0 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.dialog-cancel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+
+  button {
+    padding: 5px 10px;
+  }
+
+  button.cancel {
+    border: 1px solid red;
+    margin-right: 10px;
+  }
+
+  button.success {
+    background-color: #01d167;
+  }
+}

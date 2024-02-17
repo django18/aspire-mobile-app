@@ -1,0 +1,4 @@
+export enum CardActions {
+  FREEZE_CARD = "FREEZE_CARD",
+  DEACTIVATE_CARD = "DEACTIVATE_CARD",
+}

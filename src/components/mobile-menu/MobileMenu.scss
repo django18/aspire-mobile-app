@@ -1,0 +1,28 @@
+.app-menu {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 15px 5px;
+  background-color: #ffffff;
+  filter: drop-shadow(0 -3px 6px #00000014);
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 9px;
+    color: #dddddd;
+    align-self: flex-end;
+
+    img {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__item.active {
+    color: #01d167;
+  }
+}

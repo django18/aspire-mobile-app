@@ -1,0 +1,65 @@
+.card {
+  width: 320px;
+  border-radius: 12px;
+  background-color: #01d167;
+  position: relative;
+  color: #ffffff;
+  padding: 65px 20px 20px 30px;
+  text-align: left;
+  z-index: 40;
+
+  &__company {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &__provider {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  &__name {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .card__number-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 2px;
+  }
+
+  &__number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .card__number-circle:nth-child(4),
+    .card__number-circle:nth-child(8),
+    .card__number-circle:nth-child(12) {
+      margin-right: 15px;
+    }
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.card.freezed {
+  opacity: 30%;
+}
+
+.card.deactivated {
+  opacity: 50%;
+  border: 2px solid red;
+}

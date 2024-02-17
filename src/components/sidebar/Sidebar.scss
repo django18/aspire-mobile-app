@@ -1,0 +1,44 @@
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 20rem;
+  background-color: #0c365a;
+  color: #ffffff;
+  left: 0;
+  top: 0;
+  padding: 100px 25px;
+
+  & .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__text {
+      margin-top: 20px;
+      font-size: 15px;
+      text-align: left;
+      opacity: 30%;
+    }
+  }
+
+  & .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    row-gap: 50px;
+
+    & .menu-item {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      width: 100%;
+      font-size: 16px;
+
+      img {
+        // width: 20px;
+        // height: 20px;
+      }
+    }
+  }
+}

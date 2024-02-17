@@ -1,0 +1,25 @@
+.mobile-view {
+  width: 100%;
+  background-color: #0c365a;
+}
+
+.dialog-add-new-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+
+  input {
+    width: 100%;
+    border: 1px solid #01d167;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: #01d167;
+    color: white;
+  }
+}

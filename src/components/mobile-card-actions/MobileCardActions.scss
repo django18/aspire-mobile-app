@@ -1,0 +1,17 @@
+.card-actions {
+  display: flex;
+  background-color: #edf3ff;
+  border-radius: 12px 12px 0 0;
+  padding: 10px;
+  column-gap: 10px;
+
+  & .card-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #0c365a;
+    row-gap: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.aspire-accordion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+
+  &__trigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fafcff;
+    border-bottom: 1px solid #f5f5f5;
+
+    & .label {
+      font-size: 14px;
+      color: #0c365a;
+      display: inline-flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+  }
+
+  &__content {
+    padding: 20px;
+  }
+}
