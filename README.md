@@ -2,7 +2,7 @@
 
 Instructions to run the app :
 
-1. Clone repo :
+1. Clone repo : git clone https://github.com/django18/aspire-mobile-app.git
 2. Install dependencies : npm install
 3. Run Server: npm run dev
 4. Go to localhost:
