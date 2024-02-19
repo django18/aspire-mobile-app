@@ -38,7 +38,9 @@ export default function MobileView() {
                 onChange={(e) => setName(e.target.value)}
               />
             </label>
-
+            <button onClick={() => setIsNewCardDialogOpen(false)}>
+              Cancel
+            </button>
             <button onClick={onAddNewCard}>Submit</button>
           </form>
         </div>

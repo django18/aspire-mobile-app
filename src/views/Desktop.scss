@@ -1,0 +1,34 @@
+.aspire-web-container {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 20rem;
+
+  .aspire-web-content {
+    display: flex;
+
+    &__left,
+    &__right {
+      flex: 0 0 50%;
+      flex-direction: column;
+    }
+  }
+
+  .cards-section-tabs {
+    font-size: 14px;
+  }
+
+  .cards-section-tabs .active {
+    color: #222222;
+  }
+
+  .web-carousel-container {
+    display: flex;
+    position: relative;
+    height: 400px;
+
+    .card {
+      max-width: 414px;
+      height: 250px;
+    }
+  }
+}

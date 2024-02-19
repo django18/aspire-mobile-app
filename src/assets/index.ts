@@ -18,7 +18,7 @@ import LogoWhite from "./Logo-White.svg";
 import Next from "./next.svg";
 import BusinessAndFinance from "./business-and-finance.svg";
 import FileStorage from "./file-storage.svg";
-
+import BoxWhite from "./box-white.svg";
 import CardDetails from "./Card-Details.svg";
 
 export {
@@ -43,4 +43,5 @@ export {
   MobileHome,
   MobilePayments,
   MobileCards,
+  BoxWhite,
 };
