@@ -6,7 +6,7 @@ const initialState = {
     {
       id: 1,
       name: "Ashok Kumar",
-      card_number: "1545 1245 2541 3652",
+      cardNumber: "1545124525413652",
       cvv: "356",
       expiry: "11/26",
       showCardNumber: false,
@@ -14,7 +14,7 @@ const initialState = {
     {
       id: 2,
       name: "Ashok Kumars",
-      card_number: "1545 1245 2541 3652",
+      cardNumber: "1545124525413652",
       cvv: "356",
       expiry: "11/26",
       showCardNumber: false,
@@ -22,7 +22,7 @@ const initialState = {
     {
       id: 3,
       name: "Ashok Kumarss",
-      card_number: "1545 1245 2541 3652",
+      cardNumber: "1545124525413652",
       cvv: "356",
       expiry: "11/26",
       showCardNumber: false,
@@ -30,7 +30,7 @@ const initialState = {
     {
       id: 4,
       name: "Ashok Kumarsss",
-      card_number: "1545 1245 2541 3652",
+      cardNumber: "1545124525413652",
       cvv: "356",
       expiry: "11/26",
       showCardNumber: false,
@@ -54,7 +54,7 @@ const counterSlice = createSlice({
         const newCard = {
           id,
           name,
-          card_number: "1545 1245 2541 3652",
+          cardNumber: "1545124525413652",
           cvv: "356",
           expiry: "11/26",
           showCardNumber: false,

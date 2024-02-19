@@ -5,22 +5,14 @@ import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 
 function AppNav() {
   return (
-    <div
-      style={{
-        width: "100vw",
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className="aspire-app-nav">
       <nav>
         <ul>
           <li>
-            <Link to={`mobile`}>Mobile</Link>
+            <Link to={`mobile`}>Mobile View</Link>
           </li>
           <li>
-            <Link to={`web`}>Web</Link>
+            <Link to={`web`}>Web View</Link>
           </li>
         </ul>
       </nav>

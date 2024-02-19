@@ -1,7 +1,11 @@
 .aspire-app {
   display: flex;
   width: 100%;
-  max-width: 450px;
   height: 100vh;
   text-align: center;
+}
+
+.aspire-app-nav a {
+  text-decoration: underline;
+  color: blue;
 }

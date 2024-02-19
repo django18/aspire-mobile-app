@@ -2,7 +2,7 @@ import "./Card.scss";
 import { LogoWhite, VisaLogo, Eye } from "@/assets";
 
 export default function Cards({ cardInfo }) {
-  const last4Digits = cardInfo.card_number.substring(12);
+  const last4Digits = cardInfo.cardNumber.substring(12);
   let cardClasses = cardInfo.freezed ? "card freezed" : "card";
   if (cardInfo.deactivated) cardClasses += " deactivated";
   return (
